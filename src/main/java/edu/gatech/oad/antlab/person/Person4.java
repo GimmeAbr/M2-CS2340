@@ -14,7 +14,7 @@ public class Person4 {
     /**
      * The constructor, takes in the persons
      * name
-     * @param pname the person's real name
+     * @param pname th/home/hollistse person's real name
      */
   public Person4(String pname) {
     name = pname;
@@ -30,8 +30,12 @@ public class Person4 {
      * @return the modified string
      */
     private String calc(String input) {
-      //Person 4 put your implementation here
-      return null;
+      char[] ch = input.toCharArray();
+      for (int i = 0; i < ch.length; i++) {
+        ch[i] += 1;
+      }
+      String result = new String(ch);
+      return result;
     }
     
     /**
