@@ -31,18 +31,6 @@ public class Person5 {
 	 */
 	private String calc(String input) {
 	  //Person 5 put your implementation here
-		if(input.length() < 3 ) {
-			return input;
-		} else {
-			String toreturn;
-			for(int i = 2; i < input.length(); i++) {
-				toreturn + input.charAt(i);
-			}
-			toreturn + input.charAt(0);
-			toreturn + input.charAr(1);
-			return toreturn;
-		}
-
 		return null;
 	}
 	
