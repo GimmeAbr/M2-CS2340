@@ -2,8 +2,9 @@ apply plugin: 'java'
 
 jar {
 	manifest {
-		attributes "Main-Class" : "src.main.java.edu.gatech.oad.antlab.pkg1.AntLabMain"
+		attributes "Main-Class" : "edu.gatech.oad.antlab.pkg1.AntLabMain"
 	}
+	destinationDir = file('.')
 }
 
 dependencies {
