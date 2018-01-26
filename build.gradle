@@ -2,7 +2,10 @@ apply plugin: 'java'
 
 jar {
 	manifest {
-		attributes("Main-Class" : "src.main.java.edu.gatech.oad.antlab.pkg1.AntLabMain",
-			"Class-Path" : "lib/resources")
+		attributes "Main-Class" : "src.main.java.edu.gatech.oad.antlab.pkg1.AntLabMain"
 	}
+}
+
+dependencies {
+	 compile files('lib/resources.jar')
 }
