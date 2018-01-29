@@ -42,7 +42,7 @@ public class Person5 {
 			toreturn += input.charAt(1);
 			return toreturn;
 		}
-		
+
 	}
 
 	/**
